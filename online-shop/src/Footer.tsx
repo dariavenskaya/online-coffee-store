@@ -5,7 +5,7 @@ import './styles/Footer.css'
 function Footer() {
   return (
     <>
-    <div className="wrapper">
+    <div className="wrapper footer">
         <div className="github">
             <img src="github.svg" alt="github logo" />
             <a target="_blank" href="https://github.com/dariavenskaya" rel="noreferrer">Daria Venskaya, 2022</a>
