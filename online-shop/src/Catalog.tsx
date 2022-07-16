@@ -19,7 +19,6 @@ function Catalog(){
                   category={item.category}
                   stock={item.stock}
                   producer={item.producer}
-                  
                 />
               ))}
           </div>

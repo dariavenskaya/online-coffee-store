@@ -4,8 +4,14 @@ import Items from './types';
 
 function Card(props:Items){
     const [cart, setCart] = useState([]);
+    const [buttonText, setButtonText] = useState('ADD TO CART');
 
   const onAddToCart = ()=>{
+    setButtonText("ADDED TO CART");
+    if (buttonText === "ADDED TO CART"){
+      setButtonText("ADD TO CART")
+    }
+
     console.log(props)
   }
 
@@ -33,7 +39,7 @@ function Card(props:Items){
                   <div className='key'>Producer:</div>
                   <div>{props.producer}</div>
                 </div>
-            <button className='add-to-cart' onClick ={onAddToCart}>ADD TO CART</button>
+            <button className='add-to-cart'  onClick ={onAddToCart}>{buttonText}</button>
             </div>
         </div>
         </>

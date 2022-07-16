@@ -20,6 +20,8 @@
     flex-direction: row;
     font-size: 1.5rem;
     align-items: center;
+    width: 130px;
+    justify-content: space-between;
 }
 .plus{
     color: #F7F5F3;
@@ -56,4 +58,10 @@
     color:#A58F78;
     border: 2px solid #A58F78;
     padding: 0;
+}
+.number{
+    align-self: end;;
+}
+.subtotal{
+    width: 60px;
 }

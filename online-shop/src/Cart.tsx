@@ -20,7 +20,7 @@ function Cart({items = []}){
                   producer={item.producer}
                   
                 />
-          ))}; 
+          ))}
         </div>
         </>
     )
