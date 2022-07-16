@@ -1,4 +1,6 @@
 import './styles/Shop.css'
+import Catalog from './Catalog';
+
 
 function Shop() {
     return (
@@ -9,7 +11,11 @@ function Shop() {
                <div className="filter-name">
                 Filter by price:
                 </div>
+                <div className="price-range">
+                <p className='price-min'>0</p>
                 <input type="range" />
+                <p className='price-max'>100</p>
+                </div>
               </div>
               <div className="category-filter">
               <div className="filter-name">
@@ -33,11 +39,19 @@ function Shop() {
               <div className="sorting-filter">
               <div className="filter-name">
                 Sort by:
-                <select name="" id=""></select>
                 </div>
+
+                <select name="sort" id="sort-by">
+                    <option value="random">random</option>
+                    <option value="name(A-Z)">name(A-Z)</option>
+                    <option value="name(Z-A)">name(Z-A)</option>
+                    <option value="price(low to high)">price(low to high)</option>
+                    <option value="price(high to low)">price(high to low)</option>
+                </select>
 
               </div>
           </div>
+          <Catalog />
       </div>
       </>
     );

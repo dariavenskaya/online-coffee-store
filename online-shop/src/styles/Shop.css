@@ -13,7 +13,6 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     -webkit-border-radius: 5px;
-    /*16x16px adjusted to be same as 14x14px on moz*/
     height: 16px;
     width: 16px;
     border-radius: 5px;
@@ -36,4 +35,9 @@
 input[type='checkbox']{
     margin-left: 10px ;
     background-color: #697A3E;
+}
+.price-range{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

@@ -36,15 +36,32 @@ span{
   font-weight: 400;
 }
 p{
-  font-size: 20px;
+  font-size: 22px;
 }
 h1{
   font-size: 40px;
   font-weight: 600;
 }
+select{
+  outline: none;
+}
+button:disabled{
+  color: #dcdedc;
+  border: 2px solid #dcdedc;
+  padding: 0px;
+  background-color: #ffff;
+  cursor: auto;
+}
+button:disabled:hover{
+  color: #dcdedc;
+  border-color: #dcdedc;
+  background-color: #ffff;
+  padding:0px;
+  cursor: auto;
+}
+
 .wrapper{
-  max-width: 1300px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   padding-top: 50px;
 }

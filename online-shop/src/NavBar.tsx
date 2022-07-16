@@ -11,9 +11,9 @@ function NavBar() {
       <ul className="navlinks">
       <Link to='/'><li className="menu-item home">HOME</li></Link>
       <Link to='/shop'><li className="menu-item shop">SHOP</li></Link>
-      {/* <Link to='/about'> */}
+      <Link to='/about'>
           <li className="menu-item about-us">ABOUT US</li>
-          {/* </Link> */}
+          </Link>
 
       </ul>
       <div className="actions">
@@ -23,12 +23,12 @@ function NavBar() {
               <img src="search.svg" alt="search button" />
           </button>
       </div>
-      {/* <Link to='/cart'> */}
+      <Link to='/cart'>
           <div className="cart">
       <img width={36} height={36} src="cart.svg" alt="shopping cart"/> 
       <span>0</span>  
       </div>
-      {/* </Link> */}
+      </Link>
 
       </div>
     </div>
