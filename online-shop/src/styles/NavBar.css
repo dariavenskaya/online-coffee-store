@@ -64,7 +64,7 @@
   .search-btn{
     color: #F7F5F3;
   }
-  @media screen and (max-width: 1440px) { 
+  @media screen and (max-width: 1430px) { 
     .navbar{
       padding: 10px 0;
     }

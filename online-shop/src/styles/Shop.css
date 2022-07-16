@@ -41,8 +41,10 @@ input[type='checkbox']{
     flex-direction: row;
     align-items: center;
 }
-
-@media screen and (max-width: 1440px) { 
+.filter-header{
+  margin-left: 35px;
+}
+@media screen and (max-width: 1430px) { 
   .filters{
     display: flex;
     flex-wrap: wrap;

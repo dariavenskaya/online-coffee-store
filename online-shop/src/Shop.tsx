@@ -6,7 +6,7 @@ function Shop() {
     return (
       <>
       <div className="wrapper">
-      <h3>FILTERS:</h3>
+      <h3 className='filter-header'>FILTERS:</h3>
           <div className="filters">
               <div className="price-filter">
                <div className="filter-name">

@@ -18,7 +18,6 @@ function Cart({items = []}){
                   category={item.category}
                   stock={item.stock}
                   producer={item.producer}
-                  
                 />
           ))}
         </div>

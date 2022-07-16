@@ -18,7 +18,10 @@ function NavBar() {
       </ul>
       <div className="actions">
       <div className="search">
-          <input type="text" placeholder='find your coffee'/>
+          <input autoFocus autoComplete='off' type="text" placeholder='find your coffee'/>
+          <button className='reset' type='reset'>
+              <img src="remove-input.svg" alt="reset" />
+          </button>
           <button className='search-btn' type='submit'>
               <img src="search.svg" alt="search button" />
           </button>

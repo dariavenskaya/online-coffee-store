@@ -7,8 +7,8 @@ function Card(props:Items){
     const [buttonText, setButtonText] = useState('ADD TO CART');
 
   const onAddToCart = ()=>{
-    setButtonText("ADDED TO CART");
-    if (buttonText === "ADDED TO CART"){
+    setButtonText("REMOVE");
+    if (buttonText === "REMOVE"){
       setButtonText("ADD TO CART")
     }
 

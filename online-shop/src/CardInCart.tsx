@@ -12,9 +12,9 @@ interface ICount {
 function Counter(props:ICount) {
 	return (
 		<div className="quantity">
-		  <button className="plus" onClick={props.plus}>+</button>
-		  <div className="number">{props.count}</div>
 		  <button disabled={props.count === 0} className="minus" onClick={props.minus}>-</button>
+		  <div className="number">{props.count}</div>
+          <button className="plus" onClick={props.plus}>+</button>
 		</div>
 	)
 	};
