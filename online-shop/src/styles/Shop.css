@@ -1,0 +1,53 @@
+ input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 300px;
+    height: 5px;
+    padding: 0;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: #697A3E;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 5px;
+    height: 16px;
+    width: 16px;
+    border-radius: 5px;
+    background: #F7F5F3;
+    border: 1px solid #A58F78;
+  }
+  .filters{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 auto;
+  }
+.filter-name{
+    font-size: 22px;
+    font-weight: 400;
+}
+input[type='checkbox']{
+    margin-left: 10px ;
+    background-color: #697A3E;
+}
+.price-range{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.filter-header{
+  margin-left: 35px;
+}
+@media screen and (max-width: 1430px) { 
+  .filters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+      }
+}

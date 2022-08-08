@@ -1,0 +1,26 @@
+.about{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 0 auto;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+}
+iframe{
+    border: 2px solid #697A3E;
+}
+@media screen and (max-width: 1430px) { 
+    .about{
+        display: flex;
+        flex-direction: column;
+        }
+    .about-info{
+        width: 80%;
+    }
+        
+  }

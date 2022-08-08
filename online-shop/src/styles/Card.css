@@ -1,0 +1,64 @@
+.card-image{
+    display: flex;
+    width: 320px;
+    height: 360px;
+    border: 2px solid #A58F78;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.card-info{
+    position: absolute;
+    width: 300px;
+    background-color: #ffff;
+    bottom: 0px;
+    left: 5px;
+    right: -5px;
+    z-index: 1; 
+    transform: translateY(101%);
+    transition: 0.3s ease-in-out;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.card:hover .card-info {
+    transform: translateY(-2%);
+    cursor: pointer;
+}
+.card:hover{
+    cursor: pointer;
+}
+.add-to-cart{
+    color: #ffff;
+    width: 140px;
+    height: 35px;
+    background: #A58F78;
+    border: none;
+    text-align: center;
+    transition: all 0.4s;
+    font-size: 18px;
+    padding: 2px;
+    margin-top: 15px;
+}
+.add-to-cart:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    color:#A58F78;
+    border: 2px solid #A58F78;
+    padding: 0;
+}
+.product-price, .in-stock, .producer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.key{
+    font-weight: 500;
+    color: #697A3E;
+}
+h5{
+    font-size: 22px;
+}

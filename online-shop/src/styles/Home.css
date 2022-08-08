@@ -1,0 +1,37 @@
+.start-about{
+    align-self: flex-start;
+}
+.explore{
+    color: #ffff;
+    width: 160px;
+    height: 50px;
+    background: #A58F78;
+    border: none;
+    text-align: center;
+    transition: all 0.4s;
+    font-size: 22px;
+    padding: 2px;
+    margin-top: 15px;
+}
+.explore:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    color:#A58F78;
+    border: 2px solid #A58F78;
+    padding: 0;
+}
+.startscreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 1430px) { 
+    .startscreen{
+        display: flex;
+        flex-direction: column;
+        }
+        .start-about{
+            margin-bottom: 5%;
+        }
+  }
